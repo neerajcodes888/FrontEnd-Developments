@@ -13,8 +13,8 @@
 ## How to Use
 
 ```bash
-git clone https://github.com/your-username/fashionstore-online.git
-cd fashionstore-online
+git clone https://github.com/neerajcodes888/Mini-Projects/tree/main/Fashion-Store.git
+cd fashion-Store
 
 ```
 
