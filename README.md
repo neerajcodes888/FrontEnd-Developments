@@ -32,18 +32,17 @@ cd mini-projects
 # Add specific installation instructions for each project if needed
 npm install
 ```
-# Usage
-Provide examples of how to use the projects. Include code snippets and explanations of key features.
+
 
 # Deployment
 Each project is deployed, and you can find the deployment link in the respective README files in the projects directory.
 
 # Technologies Used
-List the technologies and tools used in your projects. Be specific about versions if necessary.
+- HTML
+- CSS
+- JavaScript
 
-HTML5
-CSS3
-JavaScript (React)
+
  <!-- Add more technologies as needed -->
 # Contributing
 We welcome contributions! If you want to contribute, please follow our contributing guidelines.
