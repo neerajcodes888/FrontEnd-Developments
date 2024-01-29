@@ -10,6 +10,14 @@
 - **Interactive Cart:** Add items to your cart with a single click and experience smooth checkout functionality.
 - **Search Functionality:** Quickly find the perfect outfit with our efficient search feature.
 
+## Demo Link
+
+<div align="center" target="blank">
+
+  [Fashion Store Deployed Link](https://neerajcodes888.github.io/Mini-Projects/Fashion-Store)
+</div>
+
+
 ## How to Use
 
 ```bash
