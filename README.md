@@ -19,7 +19,7 @@ Welcome to the Mini Projects repository! This repository is a collection of fron
 
   
 
-## Installation
+# Installation
 
 ```bash
 # Clone the repository
@@ -31,3 +31,28 @@ cd mini-projects
 # Install dependencies
 # Add specific installation instructions for each project if needed
 npm install
+```
+# Usage
+Provide examples of how to use the projects. Include code snippets and explanations of key features.
+
+# Deployment
+Each project is deployed, and you can find the deployment link in the respective README files in the projects directory.
+
+# Technologies Used
+List the technologies and tools used in your projects. Be specific about versions if necessary.
+
+HTML5
+CSS3
+JavaScript (React)
+ <!-- Add more technologies as needed -->
+# Contributing
+We welcome contributions! If you want to contribute, please follow our contributing guidelines.
+
+# License
+This project is licensed under the [AGPL-3.0 license](https://github.com/neerajcodes888/Mini-Projects/tree/main?tab=AGPL-3.0-1-ov-file).
+
+# Acknowledgments
+Mention any third-party libraries or resources used.
+Thank you to our contributors!
+# Contact
+Feel free to reach out for questions, feedback, or collaboration opportunities.
