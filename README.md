@@ -15,7 +15,9 @@ Welcome to the Mini Projects repository! This repository is a collection of fron
 
 ## Project List
 
-1. [Fashion-Store](https://github.com/neerajcodes888/Mini-Projects/tree/main/Fashion-Store)
+ ### 1.Fashion-Store
+   - [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/Fashion-Store)
+   - [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/Fashion-Store/)
 
   
 
