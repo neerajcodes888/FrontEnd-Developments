@@ -1,6 +1,7 @@
 # FashionStore Online: Your Trendy Clothing Destination
 
-![FashionStore Logo](link-to-your-logo.png)
+![fashion_demo](https://github.com/neerajcodes888/Mini-Projects/assets/98253646/57c3f360-600e-418f-a1e8-1d1b19e4de4d)
+
 
 ## Features
 
@@ -34,10 +35,8 @@ cd fashion-Store
 
 # Screenshots
 
-Caption: Explore the latest arrivals.
+![fashion_demo](https://github.com/neerajcodes888/Mini-Projects/assets/98253646/31dbaa43-bf82-4d2c-a35e-58b906e1bdf8)
 
-
-Caption: Effortless checkout process.
 
 # Technologies Used
 - HTML5: Structure of the web pages.
