@@ -24,7 +24,7 @@ This website was created using HTML, CSS, and JavaScript. It aims to provide use
 
 ## Usage
 
-To view the website, simply visit [COVID-19 Website](https://yourgithubusername.github.io/your-repository-name).
+To view the website, simply visit [COVID-19 Website](https://neerajcodes888.github.io/Mini-Projects/Covid-19/index.html).
 
 ## Contributing
 
