@@ -19,7 +19,9 @@ Welcome to the Mini Projects repository! This repository is a collection of fron
    - [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/Fashion-Store)
    - [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/Fashion-Store/)
 
-  
+### 2.Covid-19
+   - [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/Fashion-Store)
+   - [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/Fashion-Store/)
 
 # Installation
 
