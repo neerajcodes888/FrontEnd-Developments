@@ -18,3 +18,18 @@ To run the project locally, follow these steps:
 
 ```bash
 git clone https://github.com/neerajcodes888/Github_Profile.git
+```
+### Navigate to the project directory:
+
+```bash
+cd github-profile-finder
+```
+### Open the index.html file in your web browser.
+
+#### if you're using VS Code, you can use the built-in terminal: 
+```bash
+
+code index.html
+```
+
+### Start searching for GitHub profiles!
