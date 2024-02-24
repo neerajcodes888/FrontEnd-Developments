@@ -26,10 +26,14 @@ Welcome to the Mini Projects repository! This repository is a collection of fron
    - [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/Covid-19)
    - [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/Covid-19/)
 
-### 3.BackGround Generatir
+### 3.BackGround Generator
    - [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/BackGround%20Generator)
    - [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/BackGround%20Generator/)
 
+### 4.Github Profile Finder
+   - [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/BackGround%20Generator)
+   - [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/BackGround%20Generator/)
+     
 # Installation
 
 ```bash
