@@ -32,7 +32,7 @@ Welcome to the Mini Projects repository! This repository is a collection of fron
 
 ### 4.Github Profile Finder
    - [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/Github_Profile)
-   - [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/BackGround%20Generator/)
+   - [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/Github_Profile/)
      
 # Installation
 
