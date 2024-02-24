@@ -1,5 +1,8 @@
 # Mini Projects Repository
 
+
+![Mini-Projects](https://socialify.git.ci/neerajcodes888/Mini-Projects/image?description=1&descriptionEditable=%20%20The%20Mini%20Projects%20repository%20is%20a%20curated%20collection%20of%20frontend%20projects%20showca-sing%20diverse%20web%20technologies%20such%20as%20HTML%2C%20CSS%2C%20and%20JavaScript&font=Rokkitt&language=1&name=1&owner=1&pattern=Solid&theme=Dark)
+
 Welcome to the Mini Projects repository! This repository is a collection of frontend projects showcasing various technologies like HTML, CSS, and JavaScript (React). Each project is deployed, and you can find the deployment link in their respective README files.
 
 ## Table of Contents
