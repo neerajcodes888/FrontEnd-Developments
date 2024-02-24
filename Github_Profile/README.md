@@ -33,3 +33,6 @@ code index.html
 ```
 
 ### Start searching for GitHub profiles!
+
+
+## License
