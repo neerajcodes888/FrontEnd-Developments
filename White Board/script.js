@@ -73,3 +73,6 @@ canvas.addEventListener("mouseup", function() {
 
 let pen = document.querySelector("#pen");
 let eraser = document.querySelector("#eraser");
+
+let penOptions = pen.querySelector(".tool-options");
+let eraserOptions = eraser.querySelector(".tool-options");
