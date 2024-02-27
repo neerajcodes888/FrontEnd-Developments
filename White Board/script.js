@@ -96,3 +96,10 @@ penSize.addEventListener("change", function() {
 	currentPenSize = penSizeValue;
 	ctx.lineWidth = currentPenSize;
 });
+
+
+eraserSize.addEventListener("click", function() {
+	let eraserSizeValue = eraserSize.value;
+	currentEraserSize = eraserSizeValue;
+	ctx.lineWidth = currentEraserSize;
+});
