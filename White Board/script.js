@@ -76,3 +76,7 @@ let eraser = document.querySelector("#eraser");
 
 let penOptions = pen.querySelector(".tool-options");
 let eraserOptions = eraser.querySelector(".tool-options");
+
+
+let penSize = penOptions.querySelector("#pensize");
+let eraserSize = eraserOptions.querySelector("#erasersize");
