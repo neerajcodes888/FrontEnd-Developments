@@ -317,3 +317,11 @@ function drawLinesFromDB() {
 	ctx.lineWidth = currentLineWidth;
 	ctx.strokeStyle = currentStrokeStyle;
 }
+
+
+
+// Img Upload
+
+let photoDiv = document.querySelector("#photo");
+let photoUploadInput = document.querySelector("#photo-upload");
+let downloadDiv = document.querySelector("#download");
