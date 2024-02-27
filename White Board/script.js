@@ -15,3 +15,24 @@ let linesDB = [];
 let redoLinesDB = [];
 let isPenDown = false;
 let line = [];
+
+canvas.addEventListener("mousedown", function(e) {
+	if (redoLinesDB.length) {
+		redoLinesDB = [];
+	}
+	console.log("Inside mouse down");
+	isPenDown = true;
+	let x = e.clientX;
+	let y = e.clientY - 100;
+	ctx.beginPath();
+	ctx.moveTo(x, y);
+
+	let pointObject = {
+		x: x,
+		y: y,
+		type: "md",
+		lineWidth: ctx.lineWidth,
+		strokeStyle: ctx.strokeStyle,
+	};
+	line.push(pointObject);
+});
