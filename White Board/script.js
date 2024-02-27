@@ -66,3 +66,10 @@ canvas.addEventListener("mouseup", function() {
 
 	console.log(linesDB);
 });
+
+
+// Drawing
+
+
+let pen = document.querySelector("#pen");
+let eraser = document.querySelector("#eraser");
