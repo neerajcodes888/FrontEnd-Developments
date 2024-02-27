@@ -82,3 +82,7 @@ let penSize = penOptions.querySelector("#pensize");
 let eraserSize = eraserOptions.querySelector("#erasersize");
 
 let penColors = penOptions.querySelectorAll(".pen-colors div");
+
+let currentPenSize = 1;
+let currentPenColor = "black";
+let currentEraserSize = 1;
