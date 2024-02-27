@@ -103,3 +103,11 @@ eraserSize.addEventListener("click", function() {
 	currentEraserSize = eraserSizeValue;
 	ctx.lineWidth = currentEraserSize;
 });
+
+for (let i = 0; i < penColors.length; i++) {
+	penColors[i].addEventListener("click", function(e) {
+		let penColor = e.target.className;
+		currentPenColor = penColor;
+		ctx.strokeStyle = currentPenColor; // for lines
+	});
+}
