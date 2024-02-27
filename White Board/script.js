@@ -291,3 +291,29 @@ function redoLine() {
 		ctx.strokeStyle = currentStrokeStyle;
 	}
 }
+
+
+
+function drawLinesFromDB() {
+	let currentLineWidth = ctx.lineWidth;
+	let currentStrokeStyle = ctx.strokeStyle;
+
+	for (let i = 0; i < linesDB.length; i++) {
+		let line = linesDB[i];
+		for (let i = 0; i < line.length; i++) {
+			let pointObject = line[i];
+			if (pointObject.type == "md") {
+				ctx.lineWidth = pointObject.lineWidth;
+				ctx.strokeStyle = pointObject.strokeStyle;
+				ctx.beginPath();
+				ctx.moveTo(pointObject.x, pointObject.y);
+			} else {
+				ctx.lineTo(pointObject.x, pointObject.y);
+				ctx.stroke();
+			}
+		}
+	}
+
+	ctx.lineWidth = currentLineWidth;
+	ctx.strokeStyle = currentStrokeStyle;
+}
