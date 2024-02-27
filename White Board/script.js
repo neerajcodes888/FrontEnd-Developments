@@ -8,3 +8,10 @@ window.addEventListener("resize", function() {
 	canvas.height = window.innerHeight - 100;
 	drawLinesFromDB();
 });
+
+let ctx = canvas.getContext("2d");
+
+let linesDB = [];
+let redoLinesDB = [];
+let isPenDown = false;
+let line = [];
