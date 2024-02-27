@@ -136,3 +136,26 @@ pen.addEventListener("click", function() {
 		ctx.strokeStyle = currentPenColor;
 	}
 });
+
+
+eraser.addEventListener("click", function() {
+	if (eraser.classList.contains("active-tool")) {
+		// eraser already active
+		if (eraserOptions.classList.contains("hide")) {
+			eraserOptions.classList.remove("hide"); // remove hide class from penOptions
+		} else {
+			eraserOptions.classList.add("hide");
+		}
+	} else {
+		// eraser not active
+		pen.classList.remove("active-tool");
+		pen.classList.add("fade");
+		penOptions.classList.add("hide");
+
+		eraser.classList.add("active-tool");
+		eraser.classList.remove("fade");
+
+		ctx.strokeStyle = "white";
+		ctx.lineWidth = currentEraserSize;
+	}
+});
