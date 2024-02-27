@@ -86,3 +86,13 @@ let penColors = penOptions.querySelectorAll(".pen-colors div");
 let currentPenSize = 1;
 let currentPenColor = "black";
 let currentEraserSize = 1;
+
+
+penSize.addEventListener("change", function() {
+	// handle pen size
+	let penSizeValue = penSize.value;
+	// console.log(penSizeValue);
+	// pensize set hoga
+	currentPenSize = penSizeValue;
+	ctx.lineWidth = currentPenSize;
+});
