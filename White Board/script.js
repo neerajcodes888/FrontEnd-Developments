@@ -325,3 +325,8 @@ function drawLinesFromDB() {
 let photoDiv = document.querySelector("#photo");
 let photoUploadInput = document.querySelector("#photo-upload");
 let downloadDiv = document.querySelector("#download");
+
+
+photoDiv.addEventListener("click", function() {
+	photoUploadInput.click();
+});
