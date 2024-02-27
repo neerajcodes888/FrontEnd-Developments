@@ -36,3 +36,22 @@ canvas.addEventListener("mousedown", function(e) {
 	};
 	line.push(pointObject);
 });
+
+
+
+canvas.addEventListener("mousemove", function(e) {
+	if (isPenDown) {
+		console.log("Inside mousemove");
+		let x = e.clientX;
+		let y = e.clientY - 100;
+		ctx.lineTo(x, y);
+		ctx.stroke();
+
+		let pointObject = {
+			x: x,
+			y: y,
+			type: "mm",
+		};
+		line.push(pointObject);
+	}
+});
