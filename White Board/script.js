@@ -111,3 +111,28 @@ for (let i = 0; i < penColors.length; i++) {
 		ctx.strokeStyle = currentPenColor; // for lines
 	});
 }
+
+
+pen.addEventListener("click", function() {
+	if (pen.classList.contains("active-tool")) {
+		// pen already active hai
+		// pen tool options open honge
+		if (penOptions.classList.contains("hide")) {
+			penOptions.classList.remove("hide"); // remove hide class from penOptions
+		} else {
+			penOptions.classList.add("hide");
+		}
+	} else {
+		// pen is not active
+		// make pen active
+		eraser.classList.remove("active-tool");
+		eraser.classList.add("fade");
+		eraserOptions.classList.add("hide");
+
+		pen.classList.remove("fade");
+		pen.classList.add("active-tool");
+
+		ctx.lineWidth = currentPenSize;
+		ctx.strokeStyle = currentPenColor;
+	}
+});
