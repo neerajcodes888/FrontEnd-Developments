@@ -9,6 +9,7 @@ window.addEventListener("resize", function() {
 	drawLinesFromDB();
 });
 
+
 let ctx = canvas.getContext("2d");
 
 let linesDB = [];
@@ -37,8 +38,6 @@ canvas.addEventListener("mousedown", function(e) {
 	line.push(pointObject);
 });
 
-
-
 canvas.addEventListener("mousemove", function(e) {
 	if (isPenDown) {
 		console.log("Inside mousemove");
@@ -56,7 +55,6 @@ canvas.addEventListener("mousemove", function(e) {
 	}
 });
 
-
 canvas.addEventListener("mouseup", function() {
 	console.log("mouseup");
 	isPenDown = false;
@@ -67,7 +65,6 @@ canvas.addEventListener("mouseup", function() {
 	console.log(linesDB);
 });
 
-
 // Drawing
 
 
@@ -76,7 +73,6 @@ let eraser = document.querySelector("#eraser");
 
 let penOptions = pen.querySelector(".tool-options");
 let eraserOptions = eraser.querySelector(".tool-options");
-
 
 let penSize = penOptions.querySelector("#pensize");
 let eraserSize = eraserOptions.querySelector("#erasersize");
@@ -87,7 +83,6 @@ let currentPenSize = 1;
 let currentPenColor = "black";
 let currentEraserSize = 1;
 
-
 penSize.addEventListener("change", function() {
 	// handle pen size
 	let penSizeValue = penSize.value;
@@ -96,7 +91,6 @@ penSize.addEventListener("change", function() {
 	currentPenSize = penSizeValue;
 	ctx.lineWidth = currentPenSize;
 });
-
 
 eraserSize.addEventListener("click", function() {
 	let eraserSizeValue = eraserSize.value;
@@ -111,7 +105,6 @@ for (let i = 0; i < penColors.length; i++) {
 		ctx.strokeStyle = currentPenColor; // for lines
 	});
 }
-
 
 pen.addEventListener("click", function() {
 	if (pen.classList.contains("active-tool")) {
@@ -137,7 +130,6 @@ pen.addEventListener("click", function() {
 	}
 });
 
-
 eraser.addEventListener("click", function() {
 	if (eraser.classList.contains("active-tool")) {
 		// eraser already active
@@ -159,6 +151,8 @@ eraser.addEventListener("click", function() {
 		ctx.lineWidth = currentEraserSize;
 	}
 });
+
+
 
 
 // Sticky Note
@@ -244,8 +238,6 @@ function addSticky(imageElement) {
 	document.body.append(stickyDiv);
 }
 
-
-
 // Undo redo
 
 let undo = document.querySelector("#undo");
@@ -264,7 +256,6 @@ function undoLine() {
 		drawLinesFromDB();
 	}
 }
-
 
 function redoLine() {
 	if (redoLinesDB.length) {
@@ -292,8 +283,6 @@ function redoLine() {
 	}
 }
 
-
-
 function drawLinesFromDB() {
 	let currentLineWidth = ctx.lineWidth;
 	let currentStrokeStyle = ctx.strokeStyle;
@@ -319,18 +308,15 @@ function drawLinesFromDB() {
 }
 
 
-
 // Img Upload
 
 let photoDiv = document.querySelector("#photo");
 let photoUploadInput = document.querySelector("#photo-upload");
 let downloadDiv = document.querySelector("#download");
 
-
 photoDiv.addEventListener("click", function() {
 	photoUploadInput.click();
 });
-
 
 photoUploadInput.addEventListener("change", function(event) {
 	console.log(event);
@@ -344,8 +330,6 @@ photoUploadInput.addEventListener("change", function(event) {
 	img.classList.add("sticky-image");
 	addSticky(img);
 });
-
-
 
 
 downloadDiv.addEventListener("click", function() {
