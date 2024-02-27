@@ -243,3 +243,24 @@ function addSticky(imageElement) {
 
 	document.body.append(stickyDiv);
 }
+
+
+
+// Undo redo
+
+let undo = document.querySelector("#undo");
+let redo = document.querySelector("#redo");
+undo.addEventListener("click", undoLine);
+redo.addEventListener("click", redoLine);
+
+function undoLine() {
+	if (linesDB.length) {
+		let undoLine = linesDB.pop();
+		redoLinesDB.push(undoLine);
+
+		// clear canvas
+		ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+		drawLinesFromDB();
+	}
+}
