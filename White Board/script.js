@@ -55,3 +55,14 @@ canvas.addEventListener("mousemove", function(e) {
 		line.push(pointObject);
 	}
 });
+
+
+canvas.addEventListener("mouseup", function() {
+	console.log("mouseup");
+	isPenDown = false;
+
+	linesDB.push(line);
+	line = [];
+
+	console.log(linesDB);
+});
