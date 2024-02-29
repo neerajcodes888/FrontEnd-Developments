@@ -36,7 +36,7 @@ Welcome to the Mini Projects repository! This repository is a collection of fron
 
 ### 5.White Board
    - [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/Github_Profile)
-   - [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/Github_Profile/)
+   - [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/White%20Board/)
      
 # Installation
 
