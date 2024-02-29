@@ -18,26 +18,14 @@ Welcome to the Mini Projects repository! This repository is a collection of fron
 
 ## Project List
 
- ### 1.Fashion-Store
-   - [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/Fashion-Store)
-   - [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/Fashion-Store/)
+| **Index** | **Project Name**          | **Repository Link**                                           | **Deployed Link**                                                |
+|-----------|---------------------------|---------------------------------------------------------------|------------------------------------------------------------------|
+| **1**     | Fashion-Store             | [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/Fashion-Store)         | [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/Fashion-Store/)             |
+| **2**     | Covid-19                  | [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/Covid-19)              | [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/Covid-19/)                  |
+| **3**     | BackGround Generator      | [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/BackGround%20Generator)  | [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/BackGround%20Generator/)    |
+| **4**     | Github Profile Finder     | [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/Github_Profile)        | [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/Github_Profile/)            |
+| **5**     | White Board               | [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/White%20Board)          | [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/White%20Board/)              |
 
-### 2.Covid-19
-   - [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/Covid-19)
-   - [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/Covid-19/)
-
-### 3.BackGround Generator
-   - [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/BackGround%20Generator)
-   - [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/BackGround%20Generator/)
-
-### 4.Github Profile Finder
-   - [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/Github_Profile)
-   - [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/Github_Profile/)
-
-### 5.White Board
-   - [Repo Link](https://github.com/neerajcodes888/Mini-Projects/tree/main/White%20Board)
-   - [Deployed Link](https://neerajcodes888.github.io/Mini-Projects/White%20Board/)
-     
 # Installation
 
 ```bash
