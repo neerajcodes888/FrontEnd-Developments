@@ -67,4 +67,4 @@ SOFTWARE.
 
 ## Contact
 
-Have a question or suggestion? Feel free to reach out to [your-email@example.com](https://neerajcodes888.github.io/Mini-Projects/White%20Board/). 📧
+Have a question or suggestion? Feel free to reach out .
