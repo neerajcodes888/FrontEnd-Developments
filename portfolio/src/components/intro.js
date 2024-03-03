@@ -68,5 +68,15 @@ justify-content: space-evenly;
 `
 
 const Intro = () =>{
-    
+    <Box
+        initial={{height:0}}
+        animate={{height: '55vh'}}
+        transition={{ type: 'spring', duration:2, delay:1 }}
+        >
+
+
+
+
+            
+        </Box>
 }
