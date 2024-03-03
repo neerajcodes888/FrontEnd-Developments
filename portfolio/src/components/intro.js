@@ -82,7 +82,15 @@ const Intro = () =>{
                     <h6>FullStack Developer And Problem Solver.</h6>
                 </Text>
             </SubBox>
-
+            <SubBox>
+                <motion.div
+                initial={{opacity:0}}
+        animate={{opacity: 1}}
+        transition={{ duration:1, delay:2 }}
+                >
+                    <img className="pic" src={Me} alt="Profile Pic" />
+                </motion.div>
+            </SubBox>
 
         </Box>
 }
