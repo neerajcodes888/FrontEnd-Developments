@@ -39,3 +39,23 @@ img{
 `
 
 
+const Main =  styled.div`
+  border: 2px solid ${(props) => props.theme.text};
+  color: ${(props) => props.theme.text};
+  padding: 2rem;
+  width: 50vw;
+  height: 60vh;
+  z-index: 3;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(0.6rem + 1vw);
+ backdrop-filter: blur(4px);
+  
+  position: absolute;
+  left: calc(5rem + 5vw);
+  top: 10rem;
+  font-family: 'Ubuntu Mono', monospace;
+  font-style: italic;
+`
