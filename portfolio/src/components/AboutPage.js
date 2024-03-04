@@ -24,3 +24,16 @@ const float = keyframes`
 100% { transform: translateY(-10px) }
 
 `
+
+
+const Spaceman = styled.div`
+position: absolute;
+top: 10%;
+right: 5%;
+width: 20vw;
+animation: ${float} 4s ease infinite;
+img{
+    width: 100%;
+    height: auto;
+}
+`
